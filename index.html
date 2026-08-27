@@ -1,0 +1,5255 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> DCTG ASSIST - Home Appliance Service</title>
+<link rel="icon" type="image/png" href="logo.png">
+
+<meta name="description" content="DCTG ASSIST provides professional AC, fridge, washing machine and fan repair services at your doorstep in Chattogram.">
+
+<meta name="keywords" content="AC service Chattogram, AC repair Chattogram, fridge repair Chattogram, washing machine repair Chattogram, fan repair Chattogram, home appliance service">
+
+<meta name="author" content="DCTG ASSIST">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="DCTG ASSIST - Home Appliance Service">
+
+<meta property="og:description" content="Professional AC, Fridge, Washing Machine and Fan service in Chattogram.">
+
+<meta property="og:type" content="website">
+
+<meta name="geo.region" content="BD-15">
+<meta name="geo.placename" content="Chattogram">
+<meta name="geo.position" content="22.3569;91.7832">
+<meta name="ICBM" content="22.3569, 91.7832">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DCTG ASSIST",
+  "description": "Professional home appliance repair and servicing in Chattogram.",
+  "telephone": "+8801861182505",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kazir Dewri",
+    "addressLocality": "Chattogram",
+    "addressCountry": "BD"
+  },
+  "areaServed": "Chattogram"
+}
+</script>
+
+
+
+
+    <style>
+
+.booking {
+    padding: 60px 20px;
+    text-align: center;
+    background: #eef5ff;
+}
+
+.booking h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.booking p {
+    margin-bottom: 25px;
+}
+
+.booking form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.booking input,
+.booking select,
+.booking textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.booking textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.booking button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #0b5ed7;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f8fc;
+            color: #222;
+        }
+
+        header {
+            background: #0b5ed7;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #e8f2ff, #ffffff);
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            color: #0b5ed7;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0b5ed7;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .services {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .service-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .service {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .service .icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .service h3 {
+            color: #0b5ed7;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background: #0b5ed7;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .contact h2 {
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 8px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+.service img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 8%;
+    background: linear-gradient(135deg, #e8f2ff, #ffffff);
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.hero-text {
+    max-width: 750px;
+}
+
+.welcome {
+    color: #0b5ed7;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #0b5ed7;
+    display: block;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.whatsapp-btn {
+    background: #198754;
+}
+
+.trust {
+    margin-top: 25px;
+    font-size: 15px;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .trust {
+        line-height: 2;
+    }
+}
+
+.logo span {
+    font-weight: normal;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-call {
+    background: white;
+    color: #0b5ed7;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    header {
+        padding: 15px 5%;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+}
+
+.why-us {
+    padding: 60px 8%;
+    text-align: center;
+    background: white;
+}
+
+.why-us h2,
+.reviews h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.why-container,
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.why-card,
+.review-card {
+    padding: 30px 20px;
+    background: #f5f8fc;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.07);
+}
+
+.why-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.why-card h3 {
+    color: #0b5ed7;
+    margin-bottom: 10px;
+}
+
+.why-card p,
+.review-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.reviews {
+    padding: 60px 8%;
+    text-align: center;
+    background: #eef5ff;
+}
+
+.review-container {
+    margin-top: 35px;
+}
+
+.review-card {
+    background: white;
+}
+
+.stars {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.review-card h4 {
+    margin-top: 15px;
+}
+
+.footer {
+    background: #111827;
+    color: white;
+    padding: 50px 8% 20px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+}
+
+.footer-box h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-box h3 {
+    margin-bottom: 15px;
+}
+
+.footer-box p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+.footer-box a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer-box a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #374151;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #9ca3af;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+}
+
+.booking-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.booking-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #25D366;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background: #128C7E;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+    transition: 0.3s;
+    border: 1px solid #eee;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.service-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+
+    .booking-form {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .service-card {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .whatsapp-btn {
+        width: 90%;
+        text-align: center;
+    }
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #25D366;
+}
+
+.header-call {
+    text-decoration: none;
+    background: #25D366;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.header-call:hover {
+    background: #128C7E;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin: 10px 0;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .header-call {
+        padding: 9px 14px;
+        font-size: 14px;
+    }
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    margin: 15px 0 10px;
+    color: #0b5ed7;
+}
+
+.service-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.booking-note {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.booking-note a {
+    color: #0b5ed7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.booking-note a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 6px;
+    border-radius: 8px;
+    background: #0b5ed7;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.footer {
+    background: #111827;
+    color: white;
+    padding: 50px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+    margin-bottom: 15px;
+}
+
+.footer-box p {
+    color: #d1d5db;
+    line-height: 1.7;
+}
+
+.footer-box a {
+    display: block;
+    color: #d1d5db;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer-box a:hover {
+    color: #25D366;
+}
+
+.footer-bottom {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #374151;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-box a {
+        margin: 10px 0;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: white;
+}
+
+
+
+header {
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    padding: 16px 6%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border-bottom: 1px solid #e8eef5;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #0b5ed7;
+}
+
+.logo span {
+    color: #111827;
+    font-weight: 500;
+}
+
+nav a {
+    color: #374151;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #0b5ed7;
+}
+
+.header-call {
+    background: #0b5ed7;
+    color: white !important;
+    padding: 11px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(11,94,215,0.25);
+}
+
+.header-call:hover {
+    background: #084298;
+    transform: translateY(-2px);
+}
+
+
+
+
+.hero {
+    min-height: 650px;
+    padding: 80px 6%;
+    background:
+        radial-gradient(circle at 85% 20%, rgba(11,94,215,0.12), transparent 35%),
+        linear-gradient(135deg, #f7fbff 0%, #ffffff 55%, #eef6ff 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-text {
+    max-width: 780px;
+}
+
+.welcome {
+    display: inline-block;
+    background: #e7f0ff;
+    color: #0b5ed7;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    line-height: 1.08;
+    font-weight: 800;
+    color: #111827;
+    letter-spacing: -2px;
+    margin-bottom: 22px;
+}
+
+.hero h1 span {
+    color: #0b5ed7;
+}
+
+.hero-description {
+    max-width: 680px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #5b6472;
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: 0 8px 20px rgba(11,94,215,0.20);
+}
+
+.hero-buttons .whatsapp-btn {
+    background: #25D366;
+    box-shadow: 0 8px 20px rgba(37,211,102,0.20);
+}
+
+.hero-buttons .whatsapp-btn:hover {
+    background: #128C7E;
+}
+
+.trust {
+    margin-top: 28px;
+    color: #667085;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 14px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin: auto;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .trust {
+        line-height: 2;
+    }
+}
+
+
+
+.service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    background: #f8fbff;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid #e8eef5;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.07);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.13);
+    border-color: #cfe0ff;
+}
+
+.service-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.service-card .icon {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.service-card h3 {
+    color: #111827;
+    font-size: 21px;
+    margin: 8px 0 10px;
+}
+
+.service-card p {
+    color: #667085;
+    font-size: 14px;
+    line-height: 1.7;
+    min-height: 70px;
+}
+
+.service-card .btn {
+    display: block;
+    text-align: center;
+    margin: 15px 0 5px;
+    border-radius: 50px;
+    padding: 12px 18px;
+    background: #0b5ed7;
+    box-shadow: none;
+}
+
+.service-card .btn:hover {
+    background: #084298;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-container {
+        grid-template-columns: 1fr;
+        padding: 50px 18px;
+    }
+
+    .service-card img {
+        height: 210px;
+    }
+
+    .service-card p {
+        min-height: auto;
+    }
+}
+
+/* ===== PREMIUM WHY CHOOSE US ===== */
+
+.why-us {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    color: #667085;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.why-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.why-card {
+    background: #f8fbff;
+    padding: 35px 22px;
+    border-radius: 20px;
+    border: 1px solid #e7eef7;
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+    background: #ffffff;
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.10);
+}
+
+.why-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf2ff;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.why-card h3 {
+    color: #111827;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    color: #667085;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* ===== PREMIUM STATS ===== */
+
+.stats-section {
+    background: #0b5ed7;
+    color: white;
+    padding: 55px 20px;
+}
+
+.stats-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 25px;
+}
+
+.stat h3 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.stat p {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+
+/* ===== WHY US MOBILE ===== */
+
+@media (max-width: 900px) {
+    .why-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .why-us {
+        padding: 65px 18px;
+    }
+
+    .why-us h2 {
+        font-size: 30px;
+    }
+
+    .why-container {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .stat h3 {
+        font-size: 34px;
+    }
+}
+
+/* ===== PREMIUM CUSTOMER REVIEWS ===== */
+
+.reviews {
+    padding: 90px 20px;
+    background: #f5f9ff;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.reviews::before {
+    content: "★★★★★";
+    display: block;
+    color: #f5b301;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.review-container {
+    max-width: 1100px;
+    margin: 45px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.review-card {
+    background: #ffffff;
+    padding: 32px 25px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid #e6edf5;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.review-card::before {
+    content: "“";
+    position: absolute;
+    top: 12px;
+    right: 22px;
+    font-size: 60px;
+    color: #e5efff;
+    font-weight: bold;
+}
+
+.stars {
+    color: #f5b301;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.review-card p {
+    color: #596579;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.review-card h4 {
+    color: #111827;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+/* ===== REVIEW MOBILE ===== */
+
+@media (max-width: 900px) {
+    .review-container {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .reviews {
+        padding: 65px 18px;
+    }
+
+    .reviews h2 {
+        font-size: 30px;
+    }
+
+    .review-card {
+        padding: 28px 22px;
+    }
+}
+
+/* ===== PREMIUM BOOKING SECTION ===== */
+
+.booking {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.booking > p {
+    color: #667085;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.booking-form {
+    max-width: 650px;
+    margin: auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e4ebf5;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.10);
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 16px 18px;
+    margin: 7px 0;
+    border: 1px solid #d9e2ec;
+    border-radius: 12px;
+    background: #f9fbfd;
+    color: #111827;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    border-color: #0b5ed7;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(11,94,215,0.10);
+}
+
+.booking-form textarea {
+    min-height: 120px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 50px;
+    background: #25D366;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(37,211,102,0.20);
+    transition: all 0.3s ease;
+}
+
+.booking-form button:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+}
+
+.booking-note {
+    margin-top: 25px;
+    color: #667085;
+    font-size: 14px;
+}
+
+.booking-note a {
+    color: #0b5ed7;
+    font-weight: 700;
+}
+
+.booking > .whatsapp-btn {
+    margin-top: 15px;
+    border-radius: 50px;
+    padding: 13px 25px;
+}
+
+
+/* ===== BOOKING MOBILE ===== */
+
+@media (max-width: 600px) {
+
+    .booking {
+        padding: 70px 16px;
+    }
+
+    .booking h2 {
+        font-size: 30px;
+    }
+
+    .booking-form {
+        padding: 24px 18px;
+        border-radius: 18px;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form textarea {
+        font-size: 16px;
+    }
+}
+ 
+/* ===== PREMIUM CONTACT SECTION ===== */
+
+.contact {
+    padding: 90px 20px;
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    top: -120px;
+    right: -80px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 10px;
+    position: relative;
+}
+
+.contact iframe {
+    max-width: 1100px;
+    margin: 25px auto 0;
+    display: block;
+    border-radius: 20px !important;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.20);
+    position: relative;
+}
+
+.contact .btn {
+    border-radius: 50px;
+    padding: 14px 25px;
+    margin: 8px;
+    background: white;
+    color: #0b5ed7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+
+.contact .btn:hover {
+    transform: translateY(-3px);
+    background: #f1f5f9;
+}
+
+.contact .btn[href*="wa.me"] {
+    background: #25D366;
+    color: white;
+}
+
+.contact .btn[href*="wa.me"]:hover {
+    background: #128C7E;
+}
+
+
+/* ===== CONTACT MOBILE ===== */
+
+@media (max-width: 600px) {
+
+    .contact {
+        padding: 70px 16px;
+    }
+
+    .contact h2 {
+        font-size: 31px;
+    }
+
+    .contact p {
+        font-size: 15px;
+    }
+
+    .contact iframe {
+        height: 260px;
+    }
+
+    .contact .btn {
+        display: block;
+        width: 90%;
+        max-width: 330px;
+        margin: 10px auto;
+    }
+}
+
+/* ===== PREMIUM FOOTER ===== */
+
+.footer {
+    background: #0b1220;
+    color: white;
+    padding: 70px 20px 20px;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-box h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer-box h3 {
+    font-size: 17px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.footer-box p {
+    color: #aeb9c9;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer-box a {
+    color: #aeb9c9;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-box a:hover {
+    color: #25D366;
+    padding-left: 5px;
+}
+
+.footer-bottom {
+    max-width: 1150px;
+    margin: 50px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #263244;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #7f8b9d;
+    font-size: 13px;
+}
+
+
+/* ===== FLOATING WHATSAPP ===== */
+
+.floating-whatsapp {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 58px;
+    height: 58px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 29px;
+    text-decoration: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.22);
+    z-index: 99999;
+    transition: all 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+    background: #128C7E;
+}
+
+
+/* ===== FOOTER MOBILE ===== */
+
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 55px 20px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-box a:hover {
+        padding-left: 0;
+    }
+
+    .floating-whatsapp {
+        right: 16px;
+        bottom: 16px;
+        width: 55px;
+        height: 55px;
+        font-size: 27px;
+    }
+}
+
+/* ===== FINAL PREMIUM TOUCH ===== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 85px;
+}
+
+.btn,
+.header-call,
+.whatsapp-btn,
+.service-card,
+.why-card,
+.review-card {
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+.header-call:hover {
+    transform: translateY(-2px);
+}
+
+/* Better text selection */
+::selection {
+    background: #0b5ed7;
+    color: white;
+}
+
+/* Improve images */
+img {
+    max-width: 100%;
+}
+
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;
+}
+
+/* ===== MOBILE MENU ===== */
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background: #0b5ed7;
+    color: white;
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background: white;
+        padding: 15px 0;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: 12px;
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .header-call {
+        display: none;
+    }
+}
+
+/* ===== PREMIUM MOBILE MENU ===== */
+
+@media (max-width: 768px) {
+
+    nav {
+        animation: menuSlide 0.25s ease;
+    }
+
+    nav.active a {
+        border-bottom: 1px solid #edf1f7;
+    }
+
+    nav.active a:last-child {
+        border-bottom: none;
+    }
+
+    nav.active a:hover {
+        background: #f1f6ff;
+        color: #0b5ed7;
+    }
+}
+
+@keyframes menuSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== PREMIUM SERVICES HEADING ===== */
+
+.services-heading {
+    padding: 85px 20px 35px;
+    text-align: center;
+    background: #f8fbff;
+}
+
+.services-heading p {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.services-heading h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.services-heading span {
+    display: block;
+    max-width: 650px;
+    margin: auto;
+    color: #667085;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+
+    .services-heading {
+        padding: 65px 18px 25px;
+    }
+
+    .services-heading h2 {
+        font-size: 30px;
+    }
+
+    .services-heading span {
+        font-size: 15px;
+    }
+}
+
+/* ===== PREMIUM SERVICE CARD CTA ===== */
+
+.service-card {
+    position: relative;
+}
+
+.service-card h3 {
+    font-size: 21px;
+    font-weight: 750;
+}
+
+.service-card p {
+    margin-bottom: 18px;
+}
+
+.service-card .btn {
+    width: 100%;
+    margin: 12px 0 0;
+    padding: 13px 18px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.service-card .btn::after {
+    content: "  →";
+    font-size: 18px;
+}
+
+.service-card:hover .btn {
+    box-shadow: 0 8px 18px rgba(11, 94, 215, 0.18);
+}
+
+/* ===== HOW IT WORKS ===== */
+
+.how-it-works {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.how-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.how-it-works h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.how-subtitle {
+    color: #667085;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.steps-container {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.step-card {
+    position: relative;
+    padding: 35px 25px;
+    background: #f8fbff;
+    border: 1px solid #e6edf5;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.10);
+}
+
+.step-number {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #dce9ff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.step-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eaf2ff;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.step-card h3 {
+    color: #111827;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.step-card p {
+    color: #667085;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+
+    .how-it-works {
+        padding: 70px 18px;
+    }
+
+    .how-it-works h2 {
+        font-size: 30px;
+    }
+
+    .steps-container {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+}
+/* ===== SERVICE AREA ===== */
+
+.service-area {
+    padding: 80px 20px;
+    background: #f1f6ff;
+    text-align: center;
+}
+
+.area-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.service-area h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.area-description {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #667085;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.area-box {
+    max-width: 500px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    background: white;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.area-icon {
+    width: 55px;
+    height: 55px;
+    background: #eaf2ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.area-box h3 {
+    color: #111827;
+    margin-bottom: 5px;
+}
+
+.area-box p {
+    color: #667085;
+    font-size: 14px;
+}
+
+.area-btn {
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+
+    .service-area {
+        padding: 65px 18px;
+    }
+
+    .service-area h2 {
+        font-size: 30px;
+    }
+
+    .area-box {
+        padding: 20px;
+    }
+}
+
+/* ===== PREMIUM FAQ ===== */
+
+.faq-section {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.faq-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.faq-section h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.faq-subtitle {
+    color: #667085;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: #f8fbff;
+    border: 1px solid #e5ebf3;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.faq-item:hover {
+    border-color: #b9d0f5;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    padding: 20px 22px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+    list-style: none;
+    position: relative;
+    padding-right: 50px;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    position: absolute;
+    right: 22px;
+    font-size: 24px;
+    color: #0b5ed7;
+    top: 15px;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-item p {
+    padding: 0 22px 20px;
+    color: #667085;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .faq-section {
+        padding: 70px 18px;
+    }
+
+    .faq-section h2 {
+        font-size: 30px;
+    }
+
+    .faq-item summary {
+        font-size: 15px;
+        padding: 18px;
+    }
+
+    .faq-item p {
+        padding: 0 18px 18px;
+    }
+}
+
+/* ===== QUICK SERVICE CTA ===== */
+
+.quick-service {
+    padding: 55px 20px;
+    background: #0b5ed7;
+    color: white;
+}
+
+.quick-service-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.quick-label {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    opacity: 0.85;
+}
+
+.quick-service h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.quick-service p {
+    color: rgba(255,255,255,0.85);
+    line-height: 1.6;
+}
+
+.quick-buttons {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.quick-call,
+.quick-whatsapp {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.quick-call {
+    background: white;
+    color: #0b5ed7;
+}
+
+.quick-whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.quick-call:hover,
+.quick-whatsapp:hover {
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+
+    .quick-service-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quick-service h2 {
+        font-size: 27px;
+    }
+
+    .quick-buttons {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.about-section {
+    padding: 90px 20px;
+    background: #f8fbff;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.about-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.about-content > p {
+    color: #667085;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.about-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 24px;
+    background: #0b5ed7;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(11,94,215,0.2);
+}
+
+.about-highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.about-highlight {
+    background: white;
+    padding: 22px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 8px 25px rgba(15,23,42,0.07);
+    transition: 0.3s;
+}
+
+.about-highlight:hover {
+    transform: translateY(-5px);
+}
+
+.about-highlight > span {
+    font-size: 30px;
+}
+
+.about-highlight h3 {
+    color: #111827;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.about-highlight p {
+    color: #667085;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+    .about-section {
+        padding: 70px 18px;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+}
+
+    <!D
+/* ===== PREMIUM HEADER ===== */
+
+header {
+    padding: 16px 6%;
+    box-shadow: 0 3px 18px rgba(15, 23, 42, 0.08);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.logo-main {
+    color: #0b5ed7;
+}
+
+.logo-sub {
+    color: #111827;
+    font-weight: 500;
+}
+
+nav a {
+    position: relative;
+    padding: 8px 2px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #25D366;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.header-call {
+    border-radius: 50px;
+    padding: 11px 20px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 14px 5%;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+}
+
+/* ===== PREMIUM HERO TRUST ===== */
+
+.trust {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid #dce7f5;
+    border-radius: 50px;
+    color: #475467;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(15,23,42,0.04);
+}
+
+.trust-item span {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8f8ef;
+    color: #198754;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .trust {
+        justify-content: center;
+    }
+
+    .trust-item {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+}
+
+/* ===== HERO STATUS BADGE ===== */
+
+.hero-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    margin-bottom: 18px;
+    background: #ffffff;
+    border: 1px solid #dce7f5;
+    border-radius: 50px;
+    color: #475467;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0 5px 15px rgba(15, 23, 42, 0.06);
+}
+
+.status-dot {
+    width: 9px;
+    height: 9px;
+    background: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.12);
+}
+
+@media (max-width: 600px) {
+
+    .hero-status {
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+}
+
+/* ===== POPULAR SERVICE BADGE ===== */
+
+.service-card {
+    position: relative;
+}
+
+.popular-badge {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 5px 10px;
+    background: #eaf2ff;
+    color: #0b5ed7;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* ===== SERVICE META ===== */
+
+.service-meta {
+    margin: 10px 0 5px;
+    color: #667085;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+/* ===== PREMIUM REVIEWS ===== */
+
+.reviews {
+    padding: 90px 20px;
+    background: #f4f8ff;
+}
+
+.reviews h2 {
+    color: #111827;
+    font-size: 38px;
+}
+
+.review-container {
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+.review-card {
+    position: relative;
+    padding: 32px 25px;
+    border: 1px solid #e6edf5;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(15,23,42,0.07);
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 35px rgba(15,23,42,0.11);
+}
+
+.review-card::before {
+    content: "“";
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    font-size: 60px;
+    color: #dce9ff;
+    font-weight: bold;
+}
+
+.stars {
+    color: #f59e0b;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.review-card p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #475467;
+}
+
+.review-card h4 {
+    color: #111827;
+    margin-top: 20px;
+    font-size: 14px;
+}
+/* ===== FLOATING WHATSAPP ===== */
+
+.floating-whatsapp {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 58px;
+    height: 58px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 28px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    z-index: 99999;
+    transition: all 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: #128C7E;
+}
+
+@media (max-width: 600px) {
+
+    .floating-whatsapp {
+        width: 54px;
+        height: 54px;
+        right: 16px;
+        bottom: 16px;
+        font-size: 25px;
+    }
+}
+
+/* ===== FLOATING CALL ===== */
+
+.floating-call {
+    position: fixed;
+    right: 22px;
+    bottom: 92px;
+    width: 58px;
+    height: 58px;
+    background: #0b5ed7;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    z-index: 99999;
+    transition: all 0.3s ease;
+}
+
+.floating-call:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: #084298;
+}
+
+@media (max-width: 600px) {
+
+    .floating-call {
+        width: 54px;
+        height: 54px;
+        right: 16px;
+        bottom: 82px;
+        font-size: 23px;
+    }
+}
+
+/* ===== BACK TO TOP ===== */
+
+.back-to-top {
+    position: fixed;
+    right: 22px;
+    bottom: 162px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #111827;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.18);
+    z-index: 99998;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    background: #0b5ed7;
+}
+
+@media (max-width: 600px) {
+
+    .back-to-top {
+        right: 16px;
+        bottom: 148px;
+        width: 46px;
+        height: 46px;
+        font-size: 21px;
+    }
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+    display: block;
+}
+
+/* ===== PREMIUM HEADER ===== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    padding: 12px 6%;
+    border-bottom: 1px solid rgba(11, 94, 215, 0.08);
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
+    transition: 0.3s ease;
+}
+
+header:hover {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.09);
+}
+
+.logo img {
+    width: 170px;
+    height: auto;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.03);
+}
+
+nav a {
+    color: #111827;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #0b5ed7;
+}
+
+.header-call {
+    background: #0b5ed7;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(11, 94, 215, 0.20);
+    transition: 0.3s ease;
+}
+
+.header-call:hover {
+    background: #084298;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 10px 4%;
+    }
+
+    .logo img {
+        width: 145px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin: 0 6px;
+    }
+
+    .header-call {
+        padding: 9px 13px;
+        font-size: 14px;
+    }
+}
+
+/* ===== PREMIUM STATS ===== */
+
+.stats-section {
+    background: #ffffff;
+    padding: 25px 20px;
+    border-bottom: 1px solid #e8edf4;
+}
+
+.stats-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 15px 10px;
+    border-right: 1px solid #e8edf4;
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-icon {
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.stat-item h3 {
+    color: #0b5ed7;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.stat-item p {
+    color: #667085;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-item {
+        border-right: none;
+        border-bottom: 1px solid #e8edf4;
+    }
+
+    .stat-item:nth-child(3),
+    .stat-item:nth-child(4) {
+        border-bottom: none;
+    }
+}
+
+/* ===== PREMIUM SERVICE CARDS ===== */
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e8edf4;
+    transition: all 0.35s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+    border-color: #cbdcf5;
+}
+
+.service-card img {
+    transition: transform 0.45s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+
+.service-card h3 {
+    transition: color 0.3s ease;
+}
+
+.service-card:hover h3 {
+    color: #084298;
+}
+
+.service-card .btn {
+    border-radius: 50px;
+    padding: 11px 20px;
+    box-shadow: 0 5px 15px rgba(11, 94, 215, 0.15);
+}
+
+.service-card .btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== PREMIUM BOOKING SECTION ===== */
+
+.booking {
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+}
+
+.booking h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.booking > p {
+    color: #667085;
+    font-size: 16px;
+}
+
+.booking-form {
+    max-width: 650px;
+    margin: 35px auto 20px;
+    padding: 35px;
+    background: rgba(255,255,255,0.96);
+    border: 1px solid #e5eaf1;
+    border-radius: 22px;
+    box-shadow: 0 15px 45px rgba(15,23,42,0.10);
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    border: 1px solid #d9e1ec;
+    border-radius: 12px;
+    padding: 15px;
+    background: #ffffff;
+    transition: all 0.25s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    outline: none;
+    border-color: #0b5ed7;
+    box-shadow: 0 0 0 4px rgba(11,94,215,0.10);
+}
+
+.booking-form button {
+    border-radius: 12px;
+    background: #25D366;
+    box-shadow: 0 8px 20px rgba(37,211,102,0.20);
+    transition: all 0.3s ease;
+}
+
+.booking-form button:hover {
+    transform: translateY(-2px);
+    background: #128C7E;
+}
+
+.booking-note {
+    margin-top: 25px;
+    color: #667085;
+}
+
+.booking-note a {
+    color: #0b5ed7;
+    font-weight: 700;
+}
+
+/* ===== PREMIUM CONTACT SECTION ===== */
+
+.contact {
+    padding: 90px 20px;
+    background: #0b5ed7;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.contact iframe {
+    max-width: 1100px;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 18px !important;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.20);
+}
+
+.contact .btn {
+    border-radius: 50px;
+    padding: 13px 24px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact .btn:hover {
+    transform: translateY(-3px);
+}
+
+.contact .btn:first-of-type {
+    background: white;
+    color: #0b5ed7;
+}
+
+.contact .btn:first-of-type:hover {
+    background: #f1f5f9;
+}
+
+@media (max-width: 600px) {
+
+    .contact {
+        padding: 70px 18px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact p {
+        font-size: 15px;
+    }
+
+    .contact iframe {
+        height: 260px;
+    }
+}
+
+/* ===== PREMIUM FOOTER ===== */
+
+.footer {
+    background: #0b1120;
+    color: white;
+    padding: 65px 20px 20px;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.footer-box h3 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.footer-box p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.footer-box a {
+    color: #cbd5e1;
+    margin: 10px 0;
+    transition: all 0.25s ease;
+}
+
+.footer-box a:hover {
+    color: #25D366;
+    transform: translateX(4px);
+}
+
+.footer-bottom {
+    max-width: 1100px;
+    margin: 45px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+.footer-bottom p {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 50px 20px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-box a:hover {
+        transform: none;
+    }
+}
+
+/* ===== PREMIUM SMOOTH EFFECTS ===== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+.btn,
+.header-call,
+.whatsapp-btn,
+.service-card,
+.why-card,
+.review-card {
+    transition: all 0.3s ease;
+}
+
+.service-card,
+.why-card,
+.review-card {
+    animation: fadeUp 0.7s ease both;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== PREMIUM TRUST SECTION ===== */
+
+.trust-section {
+    padding: 90px 20px;
+    background: #f8fafc;
+}
+
+.trust-content {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.trust-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.trust-text h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 18px;
+}
+
+.trust-text > p {
+    color: #667085;
+    line-height: 1.7;
+    font-size: 16px;
+    max-width: 650px;
+}
+
+.trust-points {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+.trust-point {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.trust-point > span {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    background: #0b5ed7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.trust-point h3 {
+    font-size: 17px;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.trust-point p {
+    color: #667085;
+    font-size: 14px;
+}
+
+.trust-box {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(15,23,42,0.10);
+    border: 1px solid #e8edf4;
+}
+
+.trust-box-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.trust-box h3 {
+    font-size: 22px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.trust-box p {
+    color: #667085;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .trust-section {
+        padding: 70px 20px;
+    }
+
+    .trust-content {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .trust-text h2 {
+        font-size: 30px;
+    }
+
+    .trust-box {
+        padding: 35px 25px;
+    }
+}
+
+/* ===== PREMIUM HOW IT WORKS ===== */
+
+.how-it-works {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.how-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.how-it-works h2 {
+    font-size: 38px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.how-subtitle {
+    color: #667085;
+    margin-bottom: 45px;
+}
+
+.steps-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.step-card {
+    position: relative;
+    background: #f8fafc;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid #e8edf4;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07);
+    transition: all 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.step-number {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #0b5ed7;
+}
+
+.step-icon {
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+.step-card h3 {
+    color: #111827;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.step-card p {
+    color: #667085;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .how-it-works {
+        padding: 70px 20px;
+    }
+
+    .how-it-works h2 {
+        font-size: 30px;
+    }
+
+    .steps-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .step-card {
+        padding: 30px 20px;
+    }
+}
+
+/* ===== PREMIUM SERVICE AREA ===== */
+
+.service-area {
+    padding: 90px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #eef6ff, #ffffff);
+}
+
+.area-label {
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.service-area h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.area-description {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    color: #667085;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.area-box {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 15px 45px rgba(15, 23, 42, 0.10);
+    border: 1px solid #e5edf7;
+}
+
+.area-box:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+.area-box::before {
+    content: "📍";
+    display: block;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .service-area {
+        padding: 70px 20px;
+    }
+
+    .service-area h2 {
+        font-size: 30px;
+    }
+
+    .area-box {
+        padding: 25px 18px;
+        border-radius: 18px;
+    }
+}
+
+/* ===== PREMIUM BOOKING SECTION ===== */
+
+.booking {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #eef6ff, #ffffff);
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.booking > p {
+    color: #667085;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.booking-form {
+    max-width: 650px;
+    margin: 35px auto 20px;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+    border: 1px solid #e5edf7;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 16px;
+    margin: 7px 0;
+    border: 1px solid #d9e2ec;
+    border-radius: 12px;
+    background: #f8fafc;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    border-color: #0b5ed7;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(11, 94, 215, 0.10);
+}
+
+.booking-form textarea {
+    min-height: 120px;
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #25D366;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.booking-form button:hover {
+    transform: translateY(-2px);
+    background: #128C7E;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.25);
+}
+
+.booking-note {
+    margin-top: 20px;
+    color: #667085;
+}
+
+.booking-note a {
+    color: #0b5ed7;
+}
+
+@media (max-width: 768px) {
+
+    .booking {
+        padding: 70px 15px;
+    }
+
+    .booking h2 {
+        font-size: 30px;
+    }
+
+    .booking-form {
+        width: 100%;
+        padding: 22px 18px;
+        border-radius: 18px;
+    }
+}
+
+/* ===== STEP 80 - PREMIUM FOOTER FINISH ===== */
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #07111f, #111827);
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: rgba(11, 94, 215, 0.12);
+    top: -140px;
+    right: -80px;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-box h2 {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+}
+
+.footer-box h3 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footer-box a {
+    transition: all 0.25s ease;
+}
+
+.footer-box a:hover {
+    color: #25D366;
+    transform: translateX(5px);
+}
+
+.footer-bottom {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-bottom p {
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+
+    .footer::before {
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        right: -70px;
+    }
+
+    .footer-box a:hover {
+        transform: none;
+    }
+}
+
+/* ===== STEP 81 - FLOATING CONTACT ===== */
+
+.floating-contact {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.floating-contact a {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.20);
+    transition: all 0.3s ease;
+}
+
+.floating-call {
+    background: #0b5ed7;
+}
+
+.floating-whatsapp {
+    background: #25D366;
+}
+
+.floating-contact a:hover {
+    transform: translateY(-4px) scale(1.05);
+}
+
+@media (max-width: 600px) {
+
+    .floating-contact {
+        right: 15px;
+        bottom: 15px;
+        gap: 9px;
+    }
+
+    .floating-contact a {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
+
+/* ===== STEP 82 - PREMIUM HEADER ===== */
+
+header {
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
+    padding: 15px 6%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo-main {
+    color: #0b5ed7;
+}
+
+.logo-sub {
+    color: #111827;
+    font-weight: 500;
+}
+
+nav a {
+    color: #334155;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #0b5ed7;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 0;
+    height: 2px;
+    background: #0b5ed7;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.header-call {
+    background: #0b5ed7;
+    color: white !important;
+    padding: 11px 18px;
+    border-radius: 50px;
+    box-shadow: 0 7px 18px rgba(11, 94, 215, 0.20);
+    transition: 0.3s ease;
+}
+
+.header-call:hover {
+    background: #084298;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 13px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .header-call {
+        padding: 9px 14px;
+        font-size: 13px;
+    }
+}
+
+/* ===== STEP 83 - PREMIUM HERO ===== */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 650px;
+    background:
+        radial-gradient(circle at 85% 20%, rgba(11,94,215,0.12), transparent 30%),
+        linear-gradient(135deg, #f8fbff, #ffffff);
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background: rgba(11,94,215,0.06);
+    right: -180px;
+    bottom: -180px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.welcome {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 50px;
+    background: rgba(11,94,215,0.08);
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+.hero h1 span {
+    color: #0b5ed7;
+}
+
+.hero-description {
+    max-width: 650px;
+    color: #64748b;
+}
+
+.hero-buttons .btn {
+    border-radius: 50px;
+    padding: 15px 28px;
+    box-shadow: 0 8px 22px rgba(11,94,215,0.15);
+}
+
+.hero-buttons .btn:hover {
+    transform: translateY(-3px);
+}
+
+.hero-buttons .whatsapp-btn {
+    background: #25D366;
+    box-shadow: 0 8px 22px rgba(37,211,102,0.20);
+}
+
+.hero-buttons .whatsapp-btn:hover {
+    background: #128C7E;
+}
+
+.trust {
+    margin-top: 28px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: 560px;
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        text-align: center;
+        margin: 0;
+    }
+
+    .trust {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+}
+
+/* ===== STEP 84 - PREMIUM SERVICE CARDS ===== */
+
+.service-container {
+    max-width: 1200px;
+    margin: 45px auto 70px;
+    padding: 0 20px;
+    gap: 28px;
+}
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 22px;
+    border: 1px solid #e8edf4;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    transition: all 0.35s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.14);
+    border-color: rgba(11, 94, 215, 0.20);
+}
+
+.service-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.04);
+}
+
+.service-card .icon {
+    width: 55px;
+    height: 55px;
+    margin: -27px auto 12px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    font-size: 27px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.service-card h3 {
+    color: #111827;
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    color: #667085;
+    line-height: 1.65;
+    font-size: 14px;
+}
+
+.service-meta {
+    margin: 15px 0;
+    color: #0b5ed7;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.service-card .btn {
+    width: 100%;
+    margin: 8px 0 0;
+    border-radius: 50px;
+    padding: 13px 20px;
+    box-shadow: 0 7px 18px rgba(11, 94, 215, 0.15);
+}
+
+.popular-badge {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    z-index: 3;
+    padding: 6px 10px;
+    border-radius: 50px;
+    background: #0b5ed7;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    box-shadow: 0 5px 12px rgba(11, 94, 215, 0.25);
+}
+
+@media (max-width: 900px) {
+    .service-container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .service-container {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+
+    .service-card {
+        border-radius: 18px;
+        padding: 15px;
+    }
+
+    .service-card img {
+        height: 200px;
+    }
+}
+
+/* ===== STEP 85 - PREMIUM WHY CHOOSE ===== */
+
+.why-us {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.why-container {
+    max-width: 1100px;
+    margin: 45px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.why-card {
+    background: #f8fafc;
+    padding: 32px 22px;
+    border-radius: 20px;
+    border: 1px solid #e8edf4;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+    background: #ffffff;
+    border-color: rgba(11, 94, 215, 0.18);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.11);
+}
+
+.why-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(11, 94, 215, 0.08);
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+.why-card h3 {
+    color: #111827;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    color: #667085;
+    line-height: 1.65;
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .why-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .why-us {
+        padding: 70px 18px;
+    }
+
+    .why-us h2 {
+        font-size: 30px;
+    }
+
+    .why-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .why-card {
+        padding: 28px 20px;
+    }
+}
+
+
+
+.reviews {
+    padding: 90px 20px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.review-container {
+    max-width: 1100px;
+    margin: 45px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.review-card {
+    position: relative;
+    background: #ffffff;
+    padding: 32px 25px;
+    border-radius: 20px;
+    border: 1px solid #e8edf4;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.07);
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+.stars {
+    color: #f59e0b;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.review-card p {
+    color: #667085;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.review-card h4 {
+    color: #111827;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+    .review-container {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .reviews {
+        padding: 70px 18px;
+    }
+
+    .reviews h2 {
+        font-size: 30px;
+    }
+
+    .review-container {
+        margin-top: 30px;
+    }
+
+    .review-card {
+        padding: 28px 20px;
+    }
+}
+
+
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #0b5ed7;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        padding: 15px 20px;
+        box-shadow: 0 12px 25px rgba(15, 23, 42, 0.10);
+        flex-direction: column;
+        gap: 5px;
+        z-index: 9999;
+    }
+
+    #main-nav.active {
+        display: flex;
+    }
+
+    #main-nav a {
+        padding: 13px 10px;
+        border-radius: 8px;
+    }
+
+    #main-nav a:hover {
+        background: #eef6ff;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #main-nav {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    #main-nav a {
+        display: block;
+        width: 100%;
+        padding: 12px 15px;
+        text-align: center;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    #main-nav a:hover {
+        transform: translateY(-2px);
+    }
+}
+
+
+.menu-toggle {
+    cursor: pointer;
+    font-size: 28px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu-toggle:hover {
+    transform: scale(1.08);
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav a {
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #0d6efd;
+    transform: translateY(-2px);
+}
+
+nav a.active {
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+
+
+body {
+    animation: pageFadeIn 0.8s ease-in;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+button,
+.btn,
+a.button {
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+a.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+
+
+</style>
+
+<style>
+button,
+.btn,
+.booking-btn {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+.booking-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+button:active,
+.btn:active,
+.booking-btn:active {
+    transform: scale(0.97);
+}
+</style>
+
+<style>
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #25D366;
+    box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.12);
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+</style>
+
+<style>
+.booking-btn {
+    width: 100%;
+    padding: 14px 20px;
+    background: #25D366;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.booking-btn:hover {
+    background: #1ebe5d;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(37, 211, 102, 0.3);
+}
+
+.booking-btn:active {
+    transform: scale(0.98);
+}
+</style>
+
+<style>
+.service-card {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card img {
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+</style>
+<style>
+.popular-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #ff6b35;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    z-index: 5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+</style>
+
+<style>
+.service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+</style>
+
+<style>
+.service-card h3 {
+    margin: 12px 0 8px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.service-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.service-meta {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    opacity: 0.85;
+}
+</style>
+</head>
+
+
+
+<body>
+
+<div id="page-loader">
+    <div class="loader-spinner"></div>
+    <p></p>
+</div>
+
+    <header>
+ <div class="logo">
+    <img src="logo.png" alt="DCTG ASSIST Logo">
+</div>
+
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+<nav id="main-nav">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+</nav>
+    <a class="header-call" href="tel:01861182505">
+        📞 Call Now
+    </a>
+</header>
+
+<section class="hero" id="home">
+  
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+<div class="hero-status">
+    <span class="status-dot"></span>
+    Service Available in Chattogram
+</div>
+            <p class="welcome">WELCOME TO DCTG ASSIST</p>
+
+            <h1>
+                Reliable Home Appliance
+                <span>Service & Repair</span>
+            </h1>
+
+            <p class="hero-description">
+                Professional AC, Fridge, Washing Machine
+                and Fan servicing at your doorstep in Chattogram.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a class="btn" href="#booking">
+                    📝 Book a Service
+                </a>
+
+                <a class="btn whatsapp-btn"
+                   href="https://wa.me/8801861182505"
+                   target="_blank">
+                    💬 WhatsApp
+                </a>
+
+            </div>
+
+           <div class="trust">
+
+    <div class="trust-item">
+        <span>✓</span>
+        Professional Service
+    </div>
+
+    <div class="trust-item">
+        <span>✓</span>
+        Quick Response
+    </div>
+
+    <div class="trust-item">
+        <span>✓</span>
+        Chattogram Service
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat-item">
+            <div class="stat-icon">🛠️</div>
+            <h3>4</h3>
+            <p>Appliance Services</p>
+        </div>
+
+        <div class="stat-item">
+            <div class="stat-icon">📍</div>
+            <h3>Chattogram</h3>
+            <p>Service Area</p>
+        </div>
+
+        <div class="stat-item">
+            <div class="stat-icon">📞</div>
+            <h3>Quick</h3>
+            <p>Response</p>
+        </div>
+
+        <div class="stat-item">
+            <div class="stat-icon">💬</div>
+            <h3>WhatsApp</h3>
+            <p>Easy Booking</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="trust-section">
+
+    <div class="trust-content">
+
+        <div class="trust-text">
+            <p class="trust-label">WHY DCTG ASSIST</p>
+
+            <h2>Reliable Service at Your Doorstep</h2>
+
+            <p>
+                আপনার Home Appliance-এর সমস্যার জন্য
+                দ্রুত ও নির্ভরযোগ্য service পাওয়ার সহজ সমাধান।
+                Chattogram এলাকায় doorstep service সুবিধা।
+            </p>
+
+            <div class="trust-points">
+
+                <div class="trust-point">
+                    <span>✓</span>
+                    <div>
+                        <h3>Professional Support</h3>
+                        <p>Service request-এর জন্য dedicated support.</p>
+                    </div>
+                </div>
+
+                <div class="trust-point">
+                    <span>✓</span>
+                    <div>
+                        <h3>Quick Response</h3>
+                        <p>Booking পাওয়ার পর দ্রুত যোগাযোগের চেষ্টা করি।</p>
+                    </div>
+                </div>
+
+                <div class="trust-point">
+                    <span>✓</span>
+                    <div>
+                        <h3>Doorstep Service</h3>
+                        <p>Chattogram এলাকায় আপনার location-এ service.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="trust-box">
+
+            <div class="trust-box-icon">🛠️</div>
+
+            <h3>Need Appliance Service?</h3>
+
+            <p>
+                আজই আপনার service request পাঠান।
+            </p>
+
+            <a href="#booking" class="btn">
+                Book a Service
+            </a>
+
+        </div>
+
+    </div>
+
+</section> 
+<section class="services-heading">
+
+    <p>OUR SERVICES</p>
+
+    <h2>Professional Appliance Services</h2>
+
+    <span>
+        Reliable home appliance repair and servicing
+        at your doorstep in Chattogram.
+    </span>
+
+</section>
+
+  <div class="service-container" id="services">
+
+    <div class="service-card">
+<div class="popular-badge">POPULAR</div>
+        <img src="ac.jpg" alt="AC Service">
+        <div class="icon">❄️</div>
+        <h3>AC Service</h3>
+        <p>AC servicing, repair, gas charging, installation and maintenance.</p>
+<div class="service-meta">🔧 Repair • 🛠️ Maintenance</div>
+        <a class="btn" href="#booking">Book Service</a>
+    </div>
+
+<div class="service-card">
+    <img src="fridge.jpg" alt="Fridge Service">
+
+    <div class="popular-badge">POPULAR</div>
+
+    <div class="icon">🧊</div>
+    <h3>Fridge Service</h3>
+        <p>Fridge repair, cooling problem, gas charging and maintenance.</p>
+<div class="service-meta">🔧 Repair • ❄️ Cooling</div>
+        <a class="btn" href="#booking">Book Service</a>
+    </div>
+
+   <div class="service-card">
+    <img src="washing-machine.jpg" alt="Washing Machine Service">
+
+    <div class="popular-badge">POPULAR</div>
+
+    <div class="icon">🧺</div>
+    <h3>Washing Machine Service</h3>
+        <p>Washing machine repair, installation and maintenance service.</p>
+<div class="service-meta">🔧 Repair • ⚙️ Installation</div>
+        <a class="btn" href="#booking">Book Service</a>
+    </div>
+
+    <div class="service-card">
+    <img src="fan.jpg" alt="Fan Service">
+
+    <div class="popular-badge">POPULAR</div>
+
+    <div class="icon">🌀</div>
+    <h3>Fan Service</h3>
+        <p>Ceiling fan, table fan and other electrical fan repair service.</p>
+<div class="service-meta">🔧 Repair • ⚙️ Maintenance</div>
+        <a class="btn" href="#booking">Book Service</a>
+    </div>
+
+</div>
+
+    </section>
+<section class="why-us">
+
+<section class="how-it-works">
+
+    <p class="how-label">HOW IT WORKS</p>
+
+    <h2>Get Your Service in 3 Easy Steps</h2>
+
+    <p class="how-subtitle">
+        Book your appliance service quickly and easily.
+    </p>
+
+    <div class="steps-container">
+
+        <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon">📝</div>
+            <h3>Book a Service</h3>
+            <p>
+                Choose your service and send us your booking request.
+            </p>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon">📞</div>
+            <h3>We Contact You</h3>
+            <p>
+                Our team will contact you and confirm the service details.
+            </p>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon">🛠️</div>
+            <h3>Get Your Service</h3>
+            <p>
+                Our technician provides the required service at your location.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="service-area">
+
+    <p class="area-label">SERVICE AREA</p>
+
+    <h2>We Serve Chattogram</h2>
+
+    <p class="area-description">
+        Professional home appliance service available across
+        Chattogram and nearby areas.
+    </p>
+
+    <div class="area-box">
+
+        <div class="area-icon">📍</div>
+
+        <div>
+            <h3>Chattogram</h3>
+            <p>
+                Everywhere in Chittagong/
+ চট্রগ্রামের সব জায়গায়
+            </p>
+        </div>
+
+    </div>
+
+    <a href="#booking" class="btn area-btn">
+        Book a Service →
+    </a>
+
+</section>
+
+<section class="faq-section">
+
+    <p class="faq-label">FAQ</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <p class="faq-subtitle">
+        আপনার সাধারণ প্রশ্নগুলোর সহজ উত্তর।
+    </p>
+
+    <div class="faq-container">
+
+        <details class="faq-item">
+            <summary>কোন কোন appliance-এর service দেন?</summary>
+            <p>
+                আমরা AC, Fridge, Washing Machine এবং Fan-এর
+                repair, servicing ও maintenance service প্রদান করি।
+            </p>
+        </details>
+
+        <details class="faq-item">
+            <summary>আপনারা কি বাসায় এসে service দেন?</summary>
+            <p>
+                হ্যাঁ। Chattogram-এর নির্ধারিত এলাকায়
+                doorstep service দেওয়ার সুবিধা রয়েছে।
+            </p>
+        </details>
+
+        <details class="faq-item">
+            <summary>কীভাবে service booking করব?</summary>
+            <p>
+                Booking form পূরণ করে WhatsApp-এর মাধ্যমে
+                আপনার service request পাঠাতে পারবেন।
+            </p>
+        </details>
+
+        <details class="faq-item">
+            <summary>Service charge কত?</summary>
+            <p>
+                Appliance ও সমস্যার ধরন অনুযায়ী service charge
+                ভিন্ন হতে পারে। বিস্তারিত জানতে আমাদের সাথে
+                যোগাযোগ করুন।
+            </p>
+        </details>
+
+        <details class="faq-item">
+            <summary>কীভাবে আপনাদের সাথে যোগাযোগ করব?</summary>
+            <p>
+                ফোন অথবা WhatsApp-এর মাধ্যমে সরাসরি
+                আমাদের সাথে যোগাযোগ করতে পারবেন।
+            </p>
+        </details>
+
+    </div>
+
+</section>
+
+<section class="quick-service">
+
+    <div class="quick-service-content">
+
+        <div>
+            <p class="quick-label">NEED SERVICE?</p>
+
+            <h2>Need Appliance Service?</h2>
+
+            <p>
+                আপনার যন্ত্রপাতির সমস্যা নিয়ে অপেক্ষা করবেন না।
+                এখনই আমাদের সাথে যোগাযোগ করুন।
+            </p>
+        </div>
+
+        <div class="quick-buttons">
+
+            <a href="tel:01861182505" class="quick-call">
+                📞 Call Now
+            </a>
+
+            <a href="https://wa.me/8801861182505"
+               target="_blank"
+               class="quick-whatsapp">
+                💬 WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about-section">
+
+    <div class="about-container">
+
+        <div class="about-content">
+
+            <p class="about-label">ABOUT DCTG ASSIST</p>
+
+            <h2>Your Trusted Home Appliance Service Partner</h2>
+
+            <p>
+                DCTG ASSIST provides professional home appliance
+                repair and servicing solutions in Chattogram.
+            </p>
+
+            <p>
+                আমরা আপনার দৈনন্দিন গৃহস্থালি যন্ত্রপাতির জন্য নির্ভরযোগ্য পরিসেবা, দ্রুত যোগাযোগ এবং সুবিধাজনক ডোরস্টেপ সাপোর্টের ওপর গুরুত্ব দিই।
+            </p>
+
+            <a href="#booking" class="about-btn">
+                Book a Service →
+            </a>
+
+        </div>
+
+        <div class="about-highlights">
+
+            <div class="about-highlight">
+                <span>🛠️</span>
+                <div>
+                    <h3>Professional</h3>
+                    <p>Service-focused support</p>
+                </div>
+            </div>
+
+            <div class="about-highlight">
+                <span>⚡</span>
+                <div>
+                    <h3>Quick Response</h3>
+                    <p>Fast communication</p>
+                </div>
+            </div>
+
+            <div class="about-highlight">
+                <span>📍</span>
+                <div>
+                    <h3>Local Service</h3>
+                    <p>Serving Chattogram</p>
+                </div>
+            </div>
+
+            <div class="about-highlight">
+                <span>🤝</span>
+                <div>
+                    <h3>Customer Care</h3>
+                    <p>Support when you need it</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <h2>Why Choose DCTG ASSIST?</h2>
+
+    <p class="section-subtitle">
+        আপনার Home Appliance-এর জন্য নির্ভরযোগ্য Service Partner
+    </p>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <div class="why-icon">🛠️</div>
+            <h3>Professional Service</h3>
+            <p>
+                আপনার যন্ত্রপাতির সমস্যার জন্য যত্নসহকারে
+                professional service প্রদান করি।
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">⚡</div>
+            <h3>Quick Response</h3>
+            <p>
+                আপনার service request পাওয়ার পর দ্রুত
+                যোগাযোগ করার চেষ্টা করি।
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">📍</div>
+            <h3>Doorstep Service</h3>
+            <p>
+                Chattogram এলাকায় আপনার location-এ
+                service দেওয়ার সুবিধা।
+            </p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon">🤝</div>
+            <h3>Customer Support</h3>
+            <p>
+                Service-এর আগে ও পরে customer support
+                দেওয়ার চেষ্টা করি।
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                "খুব ভালো service পেয়েছি। সময়মতো এসে
+                AC-এর সমস্যা ঠিক করে দিয়েছে।"
+            </p>
+            <h4>— Customer</h4>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                "Service ভালো ছিল এবং ব্যবহারও সুন্দর।
+                DCTG ASSIST-কে recommend করব।"
+            </p>
+            <h4>— Customer</h4>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>
+                "দ্রুত response পেয়েছি এবং আমার
+                appliance-এর সমস্যা সমাধান হয়েছে।"
+            </p>
+            <h4>— Customer</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="booking" id="booking">
+
+    <h2>Book a Service</h2>
+
+    <p>আপনার তথ্য দিন, আমরা দ্রুত যোগাযোগ করব।</p>
+
+<h2>Book Your Service</h2>
+<p>Fill in the details below and send your booking request via WhatsApp.</p>
+
+
+    <form class="booking-form" onsubmit="sendWhatsApp(); return false;">
+
+        <input type="text" id="name" placeholder="আপনার নাম" required>
+
+        <input type="tel" id="phone" placeholder="আপনার ফোন নম্বর" required>
+
+        <select id="service" required>
+            <option value="">Service নির্বাচন করুন</option>
+            <option value="AC Service">AC Service</option>
+            <option value="Fridge Service">Fridge Service</option>
+            <option value="Washing Machine Service">Washing Machine Service</option>
+            <option value="Fan Service">Fan Service</option>
+        </select>
+
+        <input type="text" id="location" placeholder="আপনার Location" required>
+
+        <textarea id="message" placeholder="সমস্যা সম্পর্কে লিখুন"></textarea>
+
+        <button type="submit">Book via WhatsApp</button>
+
+    </form>
+
+<p class="booking-note">
+    📞 Need help? Call us: 
+    <a href="tel:01861182505">01861182505</a>
+</p>
+
+
+<a href="https://wa.me/8801861182505" target="_blank" class="whatsapp-btn">
+    💬 WhatsApp এ Booking করুন
+</a>
+
+</section>
+
+   <section class="contact" id="contact">
+
+    <h2>Need a Service?</h2>
+
+    <p>📞 Call: 01861182505</p>
+
+    <p>💬 WhatsApp: 01861182505</p>
+
+    <p>📍 Location: Kazir Dewri, Chattogram</p>
+
+    <div style="margin-top:25px;">
+        <iframe
+            src="https://www.google.com/maps?q=Kazir+Dewri,+Chattogram&output=embed"
+            width="100%"
+            height="300"
+            style="border:0; border-radius:12px;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <br>
+
+    <a class="btn" href="tel:01861182505">
+        📞 Call Now
+    </a>
+
+    <a class="btn" href="https://wa.me/8801861182505" target="_blank">
+        💬 WhatsApp Now
+    </a>
+
+</section>
+
+  <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>DCTG ASSIST</h2>
+            <p>
+                Professional Home Appliance Service
+                in Chattogram.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+
+            <p>📞 01861182505</p>
+            <p>📍 Kazir Dewri, Chattogram</p>
+
+            <a href="https://wa.me/8801861182505"
+               target="_blank">
+                💬 WhatsApp Us
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 DCTG ASSIST. All Rights Reserved.
+        </p>
+    </div>
+
+</footer>  
+
+<script>
+function sendWhatsApp() {
+
+    let name = document.getElementById("name").value;
+    let phone = document.getElementById("phone").value;
+    let service = document.getElementById("service").value;
+    let location = document.getElementById("location").value;
+    let message = document.getElementById("message").value;
+
+    let text =
+        "🌐 DCTG ASSIST Service Booking%0A%0A" +
+        "👤 Name: " + name + "%0A" +
+        "📞 Phone: " + phone + "%0A" +
+        "🔧 Service: " + service + "%0A" +
+        "📍 Location: " + location + "%0A" +
+        "📝 Problem: " + message;
+
+    window.open(
+        "https://wa.me/8801861182505?text=" + text,
+        "_blank"
+    );
+}
+</script>
+
+<script>
+function sendWhatsApp() {
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const service = document.getElementById("service").value;
+    const location = document.getElementById("location").value;
+    const message = document.getElementById("message").value;
+
+    const whatsappMessage =
+        "🛠️ *DCTG ASSIST Booking*%0A%0A" +
+        "👤 Name: " + name + "%0A" +
+        "📞 Phone: " + phone + "%0A" +
+        "🔧 Service: " + service + "%0A" +
+        "📍 Location: " + location + "%0A" +
+        "📝 Problem: " + message;
+
+    const whatsappURL =
+        "https://wa.me/8801861182505?text=" + whatsappMessage;
+
+    window.open(whatsappURL, "_blank");
+
+    alert("✅ Booking request তৈরি হয়েছে! এখন WhatsApp-এ Send চাপুন।");
+}
+</script>
+
+<script>
+function toggleMenu() {
+    document.querySelector("nav").classList.toggle("active");
+}
+
+document.querySelectorAll("nav a").forEach(function(link) {
+    link.addEventListener("click", function() {
+        document.querySelector("nav").classList.remove("active");
+    });
+});
+
+// ===== STEP 94 - ACTIVE NAVIGATION =====
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("#main-nav a");
+
+window.addEventListener("scroll", function() {
+    let current = "";
+
+    sections.forEach(function(section) {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.offsetHeight;
+
+        if (window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(function(link) {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+});
+
+// ===== STEP 95 - SCROLL HEADER =====
+
+window.addEventListener("scroll", function() {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+
+</script>
+ 
+<a href="https://wa.me/8801861182505"
+   target="_blank"
+   class="floating-whatsapp"
+   aria-label="Chat on WhatsApp">
+    💬
+</a>
+<a href="https://wa.me/8801861182505"
+   target="_blank"
+   class="floating-whatsapp"
+   aria-label="Chat on WhatsApp">
+    💬
+</a>
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+    ↑
+</button>
+<a href="tel:01861182505"
+   class="floating-call"
+   aria-label="Call DCTG ASSIST">
+    📞
+</a>
+<script>
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 500) {
+        backToTop.style.display = "flex";
+    } else {
+        backToTop.style.display = "none";
+    }
+
+});
+
+backToTop.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});
+
+// ===== STEP 97 - SCROLL REVEAL =====
+
+const revealElements = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+    revealElements.forEach(function(element) {
+        const windowHeight = window.innerHeight;
+        const elementTop = element.getBoundingClientRect().top;
+
+        if (elementTop < windowHeight - 100) {
+            element.classList.add("show");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+revealOnScroll();
+
+</script>
+
+<!-- ===== FLOATING CONTACT BUTTONS ===== -->
+
+<div class="floating-contact">
+
+    <a href="tel:01861182505"
+       class="floating-call"
+       aria-label="Call DCTG ASSIST">
+        📞
+    </a>
+
+    <a href="https://wa.me/8801861182505"
+       target="_blank"
+       class="floating-whatsapp"
+       aria-label="WhatsApp DCTG ASSIST  ">
+        💬
+    </a>
+
+</div>
+
+<script>
+function toggleMenu() {
+    document.getElementById("main-nav").classList.toggle("active");
+}
+
+document.querySelectorAll("#main-nav a").forEach(function(link) {
+    link.addEventListener("click", function() {
+        document.getElementById("main-nav").classList.remove("active");
+    });
+});
+</script>
+
+<script>
+window.addEventListener("load", function () {
+    document.getElementById("page-loader").classList.add("hide");
+});
+</script>
+
+</body>
+</html>
