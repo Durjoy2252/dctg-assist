@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://durjoy2252.github.io/dctg-assist/sitemap.xml
